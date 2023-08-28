@@ -71,6 +71,7 @@ public class AdapterDrawer extends RecyclerView.Adapter<AdapterDrawer.MyViewHold
         public ImageView icon;
         public TextView title;
         public LinearLayout menuSelect;
+        public LinearLayout menuSselect;
 
 
         public MyViewHolder(@NonNull View itemView) {
