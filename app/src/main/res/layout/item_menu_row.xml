@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_3sdp"
+    android:id="@+id/menuSelect"
+    android:background="?android:selectableItemBackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/layout_item"
+            android:paddingTop="@dimen/_13sdp"
+            android:paddingBottom="@dimen/_13sdp"
+            android:paddingLeft="@dimen/_25sdp"
+            android:paddingRight="@dimen/_25sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:visibility="visible"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/icon"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                />
+
+            <TextView
+                android:textColor="#040432"
+                android:textStyle="bold"
+                android:text="Home"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_13sdp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/baseline_chevron_right_24"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+    <View
+
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:id="@+id/line_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#C2C2C2"/>
+</LinearLayout>
